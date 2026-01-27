@@ -5,7 +5,7 @@ def tokenize(text: str) -> list[str]:
     Tokenize the input text into words.
     '''
     return text.lower().split()
-
+#eee
 def compute_tf(document: str) -> dict:
     '''
     Given a document, compute the term frequency (TF) for each word.
